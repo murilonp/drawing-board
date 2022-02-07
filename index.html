@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drawing Board</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Drawing Board</h1>
+    <canvas id="screen" width="980" height="450"></canvas>
+    <div class="colorArea">
+      <div
+        data-color="black"
+        style="background-color: black"
+        class="color active"
+      ></div>
+      <div data-color="blue" style="background-color: blue" class="color"></div>
+      <div data-color="red" style="background-color: red" class="color"></div>
+      <div
+        data-color="green"
+        style="background-color: green"
+        class="color"
+      ></div>
+      <div
+        data-color="yellow"
+        style="background-color: yellow"
+        class="color"
+      ></div>
+      <div data-color="gray" style="background-color: gray" class="color"></div>
+      <div data-color="white" style="background-color: #ccc" class="color">
+        Rubber
+      </div>
+    </div>
+    <div class="container-button">
+      <button class="clear">Clear Screen</button>
+      <a id="download" download="img.png">
+        <button type="button" class="download">Download</button>
+      </a>
+    </div>
+    <footer>Criado por Murilo 🚀</footer>
+  </body>
+</html>
